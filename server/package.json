@@ -1,0 +1,18 @@
+{
+    "name": "pwatext-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "server": "nodemon server.js --ignore client"
+    },
+    "keywords": [],
+    "author": "Snap",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}

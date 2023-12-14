@@ -1,0 +1,10 @@
+**/.DS_Store
+build
+**/node_modules
+.idea
+.vscode
+.project
+.env
+README_SPEC.md
+Assets
+Main
