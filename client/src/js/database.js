@@ -22,7 +22,7 @@ const initdb = async () =>
 export const putDb = async (content) =>
 {
   const db = await openDB(DB_NAME, 1);
-  const keyOfUpdatedIndex = await db.put(OBJ_STORE_NAME, content, 1);
+  const keyOfUpdatedIndex = await db.put(OBJ_STORE_NAME, {id: 1, value: content});
   console.log(`Saved to database index ${keyOfUpdatedIndex}:\n"""\n${await db.get(OBJ_STORE_NAME, keyOfUpdatedIndex)}\n"""`);
 };
 
