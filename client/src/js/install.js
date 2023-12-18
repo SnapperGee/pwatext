@@ -5,7 +5,7 @@ const butInstall = document.getElementById("buttonInstall");
 window.addEventListener("beforeinstallprompt", (event) =>
 {
     window.deferredPrompt = event;
-    butInstall.classList.remove("hidden");
+    butInstall?.classList.remove("hidden");
 });
 
 // TODO: Implement a click event handler on the `butInstall` element
